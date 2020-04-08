@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-course-starter",
-  "description": "a gatsby seed project to get your education site started",
+  "name": "project-fox-game-site",
+  "description": "The site for the Project Fox Game for Frontend Masters",
   "version": "1.0.0",
-  "author": "Brian Holt <btholt+course-starter@gmail.com>",
+  "author": "Brian Holt <btholt+project-fox-game@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "code-mirror-themes": "^1.0.0",

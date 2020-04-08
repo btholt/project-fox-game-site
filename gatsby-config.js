@@ -1,17 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
+    title: "Project Fox Game",
+    subtitle: "Making a game together",
     description:
-      "This is the description that will show up when people share as well as on search engines",
+      "A brief course where we use JavaScript, HTML, and CSS to make a digital pet staring our little fox friend.",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for"
+      "javascript",
+      "digital pet",
+      "typescript",
+      "frontend",
+      "css",
+      "html",
+      "project",
+      "pair coding"
     ]
   },
-  //pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/project-fox-game-site",
   plugins: [
     `gatsby-plugin-layout`,
     {
