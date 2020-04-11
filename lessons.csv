@@ -1,5 +1,6 @@
-path,title,order,section,description
-"/intro","Introduction","1A","Welcome","Brian Holt lays out the course objectives, his background, and where to file issues with the course as well as why he created this course: he believes that containers are going to be important to every developer going forward."
-"/fox","Previous","1B","Welcome","lol"
-"/page-2","Page 2","2A","The Second Section","The second page"
-"/page-3","Page 3","2B","The Second Section","The third page"
+path,title,order,description,section
+"/intro","Introduction","1A","Brian Holt lays out the course objectives, his background, and where to file issues with the course as well as why he created this course: he believes that containers are going to be important to every developer going forward.","Welcome"
+"/fox","Previous","1B","lol","Welcome"
+"/the-project","The Project","1B","The Project","Welcome"
+"/hello-world","Hello World","2A","Brian sets up the build process to get hello world on the screen","Frontend Infra"
+"/build-process","Build Process","2B","The Project","Frontend Infra"
