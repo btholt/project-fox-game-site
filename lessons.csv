@@ -4,3 +4,8 @@ path,title,order,description,section
 "/the-project","The Project","1B","The Project","Welcome"
 "/hello-world","Hello World","2A","Brian sets up the build process to get hello world on the screen","Frontend Infra"
 "/build-process","Build Process","2B","The Project","Frontend Infra"
+"/code-style","Code Style","2C","The Project","Frontend Infra"
+"/code-formatting","Code Formatting","2D","The Project","Frontend Infra"
+"/editor-setup","Editor Setup","2E","The Project","Frontend Infra"
+"/linting","Linting","2F","The Project","Frontend Infra"
+"/type-checking","Type Checking","2G","The Project","Frontend Infra"

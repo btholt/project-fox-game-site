@@ -4,3 +4,8 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 1B,The Project,https://en.wikipedia.org/wiki/Tamagotchi,https://en.wikipedia.org/wiki/Giga_Pet,https://www.pickledalice.com/,,,,,,,,,,,,,,,,,
 2A,Hello World,,,,,,,,,,,,,,,,,,,,
 2B,Build Process,https://caniuse.com/#feat=es6-module,http://browserify.org/,https://www.snowpack.dev/,https://rollupjs.org/guide/en/,https://github.com/developit/microbundle,https://parceljs.org/,http://localhost:1234,https://github.com/btholt/built-fox-project/tree/master/build-process,,,,,,,,,,,,
+2C,Code Style,,,,,,,,,,,,,,,,,,,,
+2D,Code Formatting,https://prettier.io/,https://en.wiktionary.org/wiki/bikeshedding,https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode,,,,,,,,,,,,,,,,,
+2E,Editor Setup,https://editorconfig.org/,https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig,,,,,,,,,,,,,,,,,,
+2F,Linting,https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb,https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint,,,,,,,,,,,,,,,,,,
+2G,Type Checking,,,,,,,,,,,,,,,,,,,,
