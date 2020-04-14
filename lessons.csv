@@ -8,4 +8,7 @@ path,title,order,description,section
 "/code-formatting","Code Formatting","2D","The Project","Frontend Infra"
 "/editor-setup","Editor Setup","2E","The Project","Frontend Infra"
 "/linting","Linting","2F","The Project","Frontend Infra"
-"/type-checking","Type Checking","2G","The Project","Frontend Infra"
+"/testing","Testing","2G","The Project","Frontend Infra"
+"/type-checking","Type Checking","2H","The Project","Frontend Infra"
+"/organization","Organizing Your Code","3A","The Project","Architecture"
+"/init","Init the Project","3B","The Project","Architecture"
