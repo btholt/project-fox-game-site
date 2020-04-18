@@ -12,3 +12,6 @@ path,title,order,description,section
 "/type-checking","Type Checking","2H","The Project","Frontend Infra"
 "/organization","Organizing Your Code","3A","The Project","Architecture"
 "/init","Init the Project","3B","The Project","Architecture"
+"/state-machine","State Machine","3C","The Project","Architecture"
+"/some-ui","Some UI","4A","The Project","The Game"
+"/the-states","The States","4B","The Project","The Game"

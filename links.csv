@@ -12,3 +12,6 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 2H,Type Checking,https://www.typescriptlang.org/,https://frontendmasters.com/courses/typescript-v2/,,,,,,,,,,,,,,,,,,
 3A,Organizing Your Code,,,,,,,,,,,,,,,,,,,,
 3B,Init the Project,,,,,,,,,,,,,,,,,,,,
+3C,State Machine,https://xstate.js.org/docs/about/concepts.html#finite-state-machines,https://xstate.js.org/docs/about/concepts.html#finite-state-machines,https://twitter.com/davidkpiano,https://frontendmasters.com/teachers/david-khourshid/,,,,,,,,,,,,,,,,
+4A,Some UI,https://btholt.github.io/project-fox-game-site/files.zip,https://frontendmasters.com/learn/css/,https://css-tricks.com/using-multi-step-animations-transitions/,,,,,,,,,,,,,,,,,
+4B,The States,,,,,,,,,,,,,,,,,,,,
