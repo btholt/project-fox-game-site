@@ -199,6 +199,54 @@ You'll see there's still the black text beneath the game. This is supposed to be
 
 We now should see a banner telling the player to start. Another fun part of this is we made it so if the modal doesn't have any text in it, it'll hide itself. Handy for showing and hiding this modal.
 
+Lastly, we need the CSS for the fox. Since we're doing fixed width, absolute positions are fine. (I just guessed and checked with these.)
+
+```css
+.fox {
+  position: absolute;
+  top: 336px;
+  left: 285px;
+  overflow: hidden;
+}
+
+.fox-pooping {
+  top: 319px;
+  left: 159px;
+}
+
+.fox-celebrate {
+  top: 290px;
+  left: 290px;
+}
+
+.fox-rain {
+  top: 362px;
+}
+
+.fox-hungry {
+  top: 362px;
+}
+
+.fox-eating {
+  top: 362px;
+}
+
+.fox-egg {
+  top: 289px;
+  left: 248px;
+}
+
+.fox-sleep {
+  top: 351px;
+  left: 445px;
+}
+
+.fox-dead {
+  top: 380px;
+  left: 243px;
+}
+```
+
 That's it for the UI! We now have all the toops we need to get started with writing the JS for the game!
 
 [files]: https://btholt.github.io/project-fox-game-site/files.zip
