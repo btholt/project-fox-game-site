@@ -129,6 +129,8 @@ Nothing too surpising here. Now we can write out our state the DOM easily using 
 Back to our gameState.js
 
 ```javascript
+import { SCENES, RAIN_CHANCE } from "./constants";
+
 startGame() {
   this.current = "HATCHING";
   this.wakeTime = this.clock + 3;
@@ -139,8 +141,16 @@ wake() {
   this.current = "IDLING";
   this.wakeTime = -1;
   modFox("idling");
-  modScene(Math.random() > 0.2 ? "day" : "rain");
+  this.scene = Math.random() > RAIN_CHANCE ? 0 : 1;
+  modScene(SCENES[this.weather]);
 },
+```
+
+Add to constants.js
+
+```javascript
+export const SCENES = ["day", "rain"];
+export const RAIN_CHANCE = 0.2;
 ```
 
 Now we can see our fox friend! Hooray! He should hatch now and start idling.
