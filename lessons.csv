@@ -16,3 +16,4 @@ path,title,order,description,section
 "/some-ui","Some UI","4A","The Project","The Game"
 "/interacting-with-the-ui","Interacting with the UI","4B","The Project","The Game"
 "/the-states","The States","4C","The Project","The Game"
+"/transitioning-between-states","Transitioning Between States","4D","The Project","The Game"
