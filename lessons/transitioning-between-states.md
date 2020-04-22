@@ -96,7 +96,78 @@ The stakes have risen! Now our fox friend can perish if our owner doesn't feed t
 
 Now we're starting to rely on the clock a bit more to track our game. We're also adding a touch of randomness. We want the game to play different each time so we're adding a bit of variance to how long it takes for the fox to get hungry as well as how long the fox has before it dies of hunger.
 
-From here, let's make it possible for our fox to eat
+From here, let's make it possible for our fox to eat. In gameState.js
 
 ```javascript
+//change feed()
+feed() {
+  // can only feed when hungry
+  if (this.current !== "HUNGRY") {
+    return;
+  }
+
+  this.current = "FEEDING";
+  this.dieTime = -1;
+  this.poopTime = getNextPoopTime(this.clock);
+  modFox("eating");
+  this.timeToStartCelebrating = this.clock + 2;
+},
+```
+
+To constants.js
+
+```javascript
+export const getNextPoopTime = clock =>
+  Math.floor(Math.random() * 3) + 4 + clock;
+```
+
+This will allow us to feed the fox before he dies! Yay! We added timers to get the fox to start celebrating as well for when it poops (you poop after you eat, right?) Now we want the fox to celebrate after he dines, so let's go implement that.
+
+```javascript
+// two variables to track
+timeToStartCelebrating: -1,
+timeToEndCelebrating: -1,
+
+// add two new ifs to tick
+else if (this.clock === this.timeToStartCelebrating) {
+  this.startCelebrating();
+} else if (this.clock === this.timeToEndCelebrating) {
+  this.endCelebrating();
+}
+
+// two new functions in game state
+startCelebrating() {
+    this.current = "CELEBRATING";
+    modFox("celebrate");
+    this.timeToStartCelebrating = -1;
+    this.timeToEndCelebrating = this.clock + 2;
+  },
+endCelebrating() {
+  this.timeToEndCelebrating = -1;
+  this.current = "IDLING";
+  this.determineFoxState();
+},
+determineFoxState() {
+  if (this.current === 'IDLING') {
+    if (SCENES[this.scene] === "rain") {
+      modFox("rain");
+    } else {
+      modFox("idling");
+    }
+  }
+},
+```
+
+We need the determineFoxState because if it's raining, the fox should go back to facing away. Let's go make our `wake` use that as well. And we can go ahead and implement change weather since this is the last feature we need to do that
+
+```javascript
+// add to wake, right after modScene
+this.determineFoxState();
+
+// replace changeWeather
+changeWeather() {
+  this.scene = (1 + this.scene) % SCENES.length;
+  modScene(SCENES[this.scene]);
+  this.determineFoxState();
+},
 ```

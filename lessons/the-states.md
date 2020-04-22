@@ -52,7 +52,7 @@ This will get the game going but we have no way to start it. So let's detour a s
 handleUserAction(icon) {
   // can't do actions while in these states
   if (
-    ["POOPING", "SLEEP", "FEEDING", "CELEBRATING", "HATCHING"].includes(
+    ["SLEEP", "FEEDING", "CELEBRATING", "HATCHING"].includes(
       this.current
     )
   ) {
