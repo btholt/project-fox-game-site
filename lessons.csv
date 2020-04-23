@@ -1,6 +1,5 @@
 path,title,order,description,section
 "/intro","Introduction","1A","Brian Holt lays out the course objectives, his background, and where to file issues with the course as well as why he created this course: he believes that containers are going to be important to every developer going forward.","Welcome"
-"/fox","Previous","1B","lol","Welcome"
 "/the-project","The Project","1B","The Project","Welcome"
 "/hello-world","Hello World","2A","Brian sets up the build process to get hello world on the screen","Frontend Infra"
 "/build-process","Build Process","2B","The Project","Frontend Infra"
@@ -18,5 +17,5 @@ path,title,order,description,section
 "/the-states","The States","4C","The Project","The Game"
 "/transitioning-between-states","Transitioning Between States","4D","The Project","The Game"
 "/pooping","Pooping","4E","The Project","The Game"
-"/changing-weather","Changing Weather","4F","The Project","The Game"
 "/death","Death","4G","The Project","The Game"
+"/conclusion","Wrapping Up","5A","The Project","Conclusion"
