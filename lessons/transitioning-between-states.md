@@ -37,7 +37,7 @@ sleep() {
 Add to constants.js
 
 ```javascript
-export const DAY_LENGTH = 20;
+export const DAY_LENGTH = 60;
 export const NIGHT_LENGTH = 3;
 ```
 
@@ -171,3 +171,7 @@ changeWeather() {
   this.determineFoxState();
 },
 ```
+
+[We've reached the transitioning-states milestone][states].
+
+[states]: https://github.com/btholt/project-files-for-fox-game/tree/master/transitioning-states

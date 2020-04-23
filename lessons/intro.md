@@ -31,7 +31,7 @@ Before we get off to the races, I have a few things I would love for you to set 
 
 ## Font, Theme, and Prompt
 
-I use [Dank Mono][dank] with [ligatures enabled][ligatures] and the default Dark+ theme for VSCode. For my shell, I use zsh with the [Spaceship ZSH][spaceship] prompt. I did pay for the Dank font (years ago, still use it and love it so totally worth it) but I know not everyone wants to pay for a font. [Cascadia Code][cascadia] from Microsoft is a great free code font with ligatures.
+I use [Dank Mono][dank] with [ligatures enabled][ligatures] and the default Dark+ theme for VSCode. For my shell, I use zsh with the [Spaceship ZSH][spaceship] prompt. I did pay for the Dank font (years ago, still use it and love it so totally worth it) but I know not everyone wants to pay for a font. [Cascadia Code][cascadia] from Microsoft is a great free code font with ligatures and what I use in the terminal.
 
 ## Where to File Issues
 

@@ -26,5 +26,8 @@ And as many of you have probably found, you do inevitably spend some time fighti
 
 So why aren't we using it for this course then? While I personally would use TypeScript here, I recognize that many people landing here wouldn't. I recognize many of you either don't know TypeScript yet or don't want to ever know TypeScript so I have made the decision to remove the barrier to the knowledge here. For the rest of you who would want TypeScript, I am sorry and you can definitely check out [Intermediate React v2][react] where I teach some TypeScript. And for the rest of you who do want to learn [Frontend Masters has a wonderful course from my old colleague Mike North.][fem].
 
+[We've reached the frontend-infra milestone][infra].
+
 [ts]: https://www.typescriptlang.org/
 [fem]: https://frontendmasters.com/courses/typescript-v2/
+[infra]: https://github.com/btholt/project-files-for-fox-game/tree/master/frontend-infra

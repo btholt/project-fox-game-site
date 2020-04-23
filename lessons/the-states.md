@@ -142,7 +142,7 @@ wake() {
   this.wakeTime = -1;
   modFox("idling");
   this.scene = Math.random() > RAIN_CHANCE ? 0 : 1;
-  modScene(SCENES[this.weather]);
+  modScene(SCENES[this.scene]);
 },
 ```
 
@@ -158,3 +158,7 @@ Now we can see our fox friend! Hooray! He should hatch now and start idling.
 We are modding the scene here because now we can re-use these functions to restart the game after death for startGame and to wake up after night. Just for fun, we're making it randomly rain sometimes. Currently, it'll rain ~20% of the time. Feel free to play with that number.
 
 Okay! So now the game is off and running. Let's go to the next section where we'll flesh out the rest of the states!
+
+[We've reached the game-started milestone][game-started].
+
+[game-started]: https://github.com/btholt/project-files-for-fox-game/tree/master/game-started

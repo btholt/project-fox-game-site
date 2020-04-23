@@ -71,3 +71,7 @@ handleUserAction(icon) {
 ```
 
 This should be all plumbed up now. Head over to your game and try playing around with the buttons! It should log out when you click the middle button and the button highlights should work correctly.
+
+[We've reached the ui-interaction milestone][ui].
+
+[ui]: https://github.com/btholt/project-files-for-fox-game/tree/master/ui-interaction

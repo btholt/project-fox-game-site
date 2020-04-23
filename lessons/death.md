@@ -67,3 +67,7 @@ this.clearTimes();
 This allows us to be sure we clear out all times when we need to, otherwise we could have unexpected timers going off.
 
 That's it! The game should fully be working by now! Our foxy friend can now have a full life cycle.
+
+[We've reached the last milestone, code-complete-game][code].
+
+[code]: https://github.com/btholt/project-files-for-fox-game/tree/master/code-complete-game

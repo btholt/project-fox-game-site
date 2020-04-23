@@ -60,7 +60,7 @@ dist/
 
 This is so we don't commit derived or cache files to your codebase: you only want to store source code, the source of truth, in your code. Everything else can be built whenever.
 
-[State of the repo can be found here][build-process].
+[We've now arrived to the build-process milestone][build-process].
 
 [modules]: https://caniuse.com/#feat=es6-module
 [snowpack]: https://www.snowpack.dev/
@@ -68,4 +68,4 @@ This is so we don't commit derived or cache files to your codebase: you only wan
 [browserify]: http://browserify.org/
 [microbundle]: https://github.com/developit/microbundle
 [parcel]: https://parceljs.org/
-[build-process]: https://github.com/btholt/built-fox-project/tree/master/build-process
+[build-process]: https://github.com/btholt/project-files-for-fox-game/tree/master/build-process

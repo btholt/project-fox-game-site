@@ -249,7 +249,10 @@ Lastly, we need the CSS for the fox. Since we're doing fixed width, absolute pos
 
 That's it for the UI! We now have all the toops we need to get started with writing the JS for the game!
 
+[We've reached the css-completed milestone][css]
+
 [files]: https://btholt.github.io/project-fox-game-site/files.zip
 [css]: https://frontendmasters.com/learn/css/
 [step]: https://css-tricks.com/using-multi-step-animations-transitions/
 [box-sizing]: https://css-tricks.com/almanac/properties/b/box-sizing/
+[css]: https://github.com/btholt/project-files-for-fox-game/tree/master/css-completed

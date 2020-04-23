@@ -22,7 +22,6 @@ So that's what we're going to do is model a basic finite state machine that repr
   "SLEEPING",
   "EATING",
   "POOPING",
-  "POOPED",
   "HUNGRY",
   "CELEBRATING",
   "DEAD"

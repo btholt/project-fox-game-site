@@ -12,7 +12,13 @@ Some people will do more coding up front, but I like to have the "scaffolding" o
 
 Let's start by getting our first "Hello World" for the project up and running.
 
-Make a new directory for your project, run `npm init` in that folder. Feel free to answer those questions however you want (or run `npm init -y` to skip them.) This will start a new project with a `package.json` for you. This will allow you to `npm install` new packages and it'll save those to package.json so you can keep track of your dependencies.
+You'll also need some images and a bit of CSS for me (I didn't want to dwell too much time on CSS so I wrote a bit of it for you.) You can get that [here][repo]. This repo has the various steps in the project. You'll want to start with the aptly-named [start-here][start-here] directory which has a `src` directory in it with the files you'll need.
+
+It's as simple as running `git clone https://github.com/btholt/project-files-for-fox-game.git`.
+
+You'll notice there are many folders in here. These are the various steps you'll hit along the way. I'll be sure to let you know when we've arrived at the next milestone so if you need help you glance at the next milestone.
+
+Make a new directory for your project and copy in that `src` folder from `start-here` (or just work in the start-here directory, that works too), run `npm init` in that folder. Feel free to answer those questions however you want (or run `npm init -y` to skip them.) This will start a new project with a `package.json` for you. This will allow you to `npm install` new packages and it'll save those to package.json so you can keep track of your dependencies.
 
 ## Git
 
@@ -25,3 +31,6 @@ node_modules/
 ```
 
 Now anything inside of `node_modules` (where npm put the dependencies) will be ignored.
+
+[repo]: https://github.com/btholt/project-files-for-fox-game
+[start-here]: https://github.com/btholt/project-files-for-fox-game/tree/master/start-here
