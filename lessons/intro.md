@@ -18,7 +18,7 @@ Let's have fun!
 
 You are a frontend developer.
 
-This course isn't intended to teach how to become a frontend developer, there two courses on Frontend Masters I'd recommend you look at for that: [the Bootcamp][bootcamp] and [Intro to Web Dev v2][web-dev], both courses with me as a teacher (the Bootcamp has the amazing Jen Simmons too.)
+This course isn't intended to teach how to become a frontend developer, there two courses on Frontend Masters I'd recommend you look at for that: [the Bootcamp][bootcamp] and [Intro to Web Dev v2][web-dev], both courses with me as a teacher (the Bootcamp has the amazing Jen Kramer, too.)
 
 So you should have a beginner level grasp at least of HTML, JavaScript, and CSS. If you don't feel comfortable yet with any or all of those, please take one of the above courses first; you'll get more out of this course then. If you've used Node.js to use tools (like Webpack or TypeScript) before, that'll help too. We'll only lightly dabble with those tools, so it's okay if this will be your first time with them.
 
