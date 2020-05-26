@@ -186,6 +186,8 @@ You'll see there's still the black text beneath the game. This is supposed to be
   top: 0;
   left: 0;
   right: 0;
+  background-color: blueviolet;
+  color: white;
 }
 
 .modal:empty {
