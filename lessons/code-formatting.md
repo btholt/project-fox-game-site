@@ -32,7 +32,7 @@ Add the following two commands to your npm scripts:
   "scripts": {
     […]
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
-    "format:check": "prettier ./.gitignore --check \"./**/*.{html,json,js,ts,css}\""
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\""
   }
 }
 ```
