@@ -24,7 +24,7 @@ Run this:
 npm install -D eslint eslint-plugin-import eslint-config-prettier
 ```
 
-Add a new file to the root of your project called `.eslintrc.json and put this into it:
+Add a new file to the root of your project called `.eslintrc.json` and put this into it:
 
 ```json
 {
