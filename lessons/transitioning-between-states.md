@@ -27,7 +27,7 @@ this.sleepTime = this.clock + DAY_LENGTH;
 
 // add function to gameState
 sleep() {
-  this.state = "SLEEP";
+  this.current = "SLEEP";
   modFox("sleep");
   modScene("night");
   this.wakeTime = this.clock + NIGHT_LENGTH;
