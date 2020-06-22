@@ -31,6 +31,8 @@ export default function initButtons(handleUserAction) {
       toggleHighlighted(selectedIcon, true);
     } else {
       handleUserAction(ICONS[selectedIcon]);
+    }
+  }
   document.querySelector(".buttons").addEventListener("click", buttonClick);
 }
 ```
