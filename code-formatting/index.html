@@ -58,7 +58,7 @@
   <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token punctuation">[</span>…<span class="token punctuation">]</span>
     <span class="token property">"format"</span><span class="token operator">:</span> <span class="token string">"prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\""</span><span class="token punctuation">,</span>
-    <span class="token property">"format:check"</span><span class="token operator">:</span> <span class="token string">"prettier ./.gitignore --check \"./**/*.{html,json,js,ts,css}\""</span>
+    <span class="token property">"format:check"</span><span class="token operator">:</span> <span class="token string">"prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\""</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>So we added two commands: one that will fix all of our problems, and one that will check for problems. The former is the one we use before we commit code to reformat everything. The latter we could make run in a CI/CD (continuous integration / continuous delivery) platform like Azure Pipelines, GitHub Actions, Travis CI, etc. to make sure all code is formatted with Prettier before we deploy it. This is what I was talking about "being automated". Now we can make the enforcement of our code style automatic.</p>
