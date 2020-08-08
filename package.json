@@ -21,7 +21,7 @@
     "gatsby-transformer-remark": "^2.6.10",
     "is-url-superb": "^3.0.0",
     "parse-markdown-links": "^1.0.4",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
