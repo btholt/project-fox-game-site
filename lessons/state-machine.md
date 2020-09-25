@@ -45,7 +45,7 @@ const gameState = {
   }
 };
 
-module.exports = gameState;
+export default gameState;
 ```
 
 Back in init, change the the init.js,
