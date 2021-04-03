@@ -31,3 +31,4 @@ So why aren't we using it for this course then? While I personally would use Typ
 [ts]: https://www.typescriptlang.org/
 [fem]: https://frontendmasters.com/courses/typescript-v2/
 [infra]: https://github.com/btholt/project-files-for-fox-game/tree/master/frontend-infra
+[react]: https://frontendmasters.com/courses/intermediate-react-v2/
