@@ -9,7 +9,26 @@ body {
   margin-top: 20px;
 }
 
-.index .jumbotron {
+.main {
+  margin-top: 80px;
+}
+
+.lesson-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.lesson {
+  margin: 20px;
+}
+
+.lesson-content {
+  padding: 20px;
+}
+
+.lesson h1 {
+  margin: 0;
+  padding: 20px;
 }
 
 .example-table {

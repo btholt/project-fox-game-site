@@ -17,6 +17,7 @@ module.exports = {
   },
   pathPrefix: "/project-fox-game-site",
   plugins: [
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,

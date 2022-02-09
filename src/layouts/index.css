@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .navbar h1 {
@@ -25,12 +26,61 @@
   font-weight: bold;
 }
 
-.navbar h2 {
+.navbar h2,
+.navbar h3{
   font-size: 14px;
   margin: inherit;
   padding: inherit;
   text-transform: uppercase;
   color: white;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 0;
+  background: #0066cc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button .icon {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.button a {
+  padding: 3px 8px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1450px) {
+  .mobile-hidden {
+    display: none;
+  }
+  .lesson-container {
+    padding-top: 65px;
+  }
+}
+
+.button:hover {
+  background: #0d6efd;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
 }
 
 .jumbotron.gradient {
